@@ -123,6 +123,9 @@
   }
 
   window.drawVisualization = function(p) {
+
+    console.log("sample patient", p);
+
     $('#holder').show();
     $('#loading').hide();
     $('#fname').html(p.fname);
